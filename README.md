@@ -3,7 +3,9 @@
 **One equation. No free parameters. Four forces.**
 
 ```
+
 F = Q₁Q₂ / r²     where Q = q + im√G
+
 ```
 
 > *Donald Cameron — Physics Essays (2012, 2015, 2018)*  
@@ -73,11 +75,13 @@ Previously a postulate borrowed from GR. Now derived from three
 Cameron framework contributions in a strict **3:2:1 ratio**:
 
 ```
+
 δφ₁ = 3πGM/(c²p)   PMV kinematics (Binet)          21.50 arcsec/cy  [3/6]
 δφ₂ = 2πGM/(c²p)   M_eff = M(1+v²/c²) coupling     14.33 arcsec/cy  [2/6]
 δφ₃ =  πGM/(c²p)   Gravitomagnetic                   7.17 arcsec/cy  [1/6]
 ────────────────────────────────────────────────────────────────────────────
      = 6πGM/(c²p)   Total                            43.00 arcsec/cy  [6/6]
+
 ```
 
 The same coupling M_eff = M(1+v²/c²) that produces the 2/6 perihelion
@@ -90,7 +94,9 @@ For a neutral atom or neutron beam at speed β grazing the Sun
 (impact parameter b = R_sun):
 
 ```
+
 α_Cameron = 2GM(1+β²)√(1−β²) / (bc²β²)
+
 ```
 
 | β | GR (arcsec) | Cameron (arcsec) | Ratio |
@@ -127,8 +133,10 @@ Standard QCD postulates gluon spin for the "missing" 70%.
 The Cameron framework derives it kinematically:
 
 ```
+
 30% intrinsic = P_re × P_im = (ℏ/2)n̂   [PMV bivector spin]
 70% orbital   = r × p at 0.99c          [Zitterbewegung orbital L]
+
 ```
 
 No new fields required. The resolution follows from quarks moving
@@ -141,7 +149,9 @@ A ship at speed β through the ISM/CMB medium experiences a real
 physical asymmetry — not a coordinate effect:
 
 ```
+
 β = (R − 1) / (R + 1)     where R = T_forward hull / T_aft hull
+
 ```
 
 Local measurement of absolute velocity relative to the CMB rest
@@ -168,6 +178,7 @@ Full documentation in `disputes/what_doesnt_work.md`.
 ## Repository structure
 
 ```
+
 cameron-unified-framework/
 │
 ├── README.md                              ← this file
@@ -220,6 +231,7 @@ cameron-unified-framework/
 └── archive/
     ├── CLAUDE_REPOSITORY.md               ← link and description
     └── GEMINI_REPOSITORY.md               ← link and description
+
 ```
 
 ---
@@ -227,30 +239,48 @@ cameron-unified-framework/
 ## Running the calculations
 
 **Requirements:**
-```bash
+
+```
+
+bash
 pip install numpy scipy matplotlib
+
 ```
 
 **Nuclear van der Waals binding (8–14σ result):**
-```bash
+
+```
+
+bash
 python montecarlo/nuclear_anchor_montecarlo.py    # 10–30 min, N=500,000
 python montecarlo/nuclear_vdw_montecarlo.py       # 5–15 min, N=300,000
+
 ```
 
 **Rotation curves:**
-```bash
+
+```
+
+bash
 python predictions/sparc_rotation_curves.py       # under 1 min
+
 ```
 
 **Perihelion advance — analytic, verify with a calculator:**
+
 ```
+
 δφ = 6πGM / (c²·a·(1−e²))
    = 43.00 arcsec/century for Mercury
+
 ```
 
 **All derivations in Mathematica:**
-```mathematica
+
+```
+mathematica
 Get["mathematica/phase_kinetics.m"]
+
 ```
 
 ---
