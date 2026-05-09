@@ -1,7 +1,7 @@
 # Archive: Gemini Phase Kinetics Repository
 
 **Repository:** cameron-unified-framework (Gemini synthesis)  
-**URL:** https://github.com/[https://github.com/irxyzcameron6D/Cosmology-Phase-Kinetics]  
+**URL:** https://github.com/irxyzcameron6D/Cosmology-Phase-Kinetics  
 **Status:** Read-only historical record. Superseded by this central repository.
 
 ---
