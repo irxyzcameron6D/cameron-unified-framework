@@ -1,0 +1,80 @@
+# Cameron Unified Framework — .gitignore
+ 
+# ── Python ────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+ 
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+ 
+# ── Jupyter Notebooks ─────────────────────────────────────────────
+# Keep .ipynb files (they are the work product)
+# Ignore checkpoint folders that Jupyter creates automatically
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+ 
+# ── Computation outputs ───────────────────────────────────────────
+# Keep .png figures that are results (committed intentionally)
+# Ignore large data files generated during runs
+*.npz
+*.npy
+*.h5
+*.hdf5
+mc_results_*.npz
+mc_anchor_*.npz
+ 
+# But KEEP the reference results (committed intentionally):
+# !nuclear_anchor_results.png   ← already tracked, no action needed
+ 
+# ── Operating system files ────────────────────────────────────────
+.DS_Store           # Mac
+Thumbs.db           # Windows
+desktop.ini         # Windows
+*~                  # Linux backup files
+ 
+# ── Editors ───────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+ 
+# ── Word / Office files (use docx outputs folder instead) ─────────
+# Keep .docx files that are committed as paper drafts
+# Ignore temp files Word creates while editing
+~$*.docx
+~$*.xlsx
+~$*.pptx
+ 
+# ── LaTeX (not used in this project — but just in case) ───────────
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+ 
+# ── Large files that should not be in git ─────────────────────────
+# If Mathematica notebooks are added later:
+*.nb.bak
+ 
+# ── Local notes (personal, not for the repository) ────────────────
+scratch/
+notes/
+local/
+TODO_personal.md
+ 
