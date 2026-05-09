@@ -276,9 +276,13 @@ Published papers: Physics Essays (2012, 2015, 2018)
 Computational verification: Claude (Anthropic)  
 Theoretical synthesis: Gemini (Google)
 
+**arXiv preprint template:** [cameron_arxiv_template_v2.pdf](cameron_arxiv_template_v2.pdf)  
+
 ---
 
 *"The number has to be able to come out wrong."*  
 *"The word has to mean what it says."*  
 *Every calculation in this repository was designed to fail.*  
 *The ones that did not are the results.*
+
+
